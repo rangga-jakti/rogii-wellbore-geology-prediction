@@ -1,0 +1,34 @@
+# Data - jangan di-push (terlalu besar!)
+data/raw/
+data/processed/
+*.zip
+*.csv
+!data/.gitkeep
+
+# Outputs
+outputs/
+experiments/
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
